@@ -8,7 +8,7 @@ O objetivo desse ataque é "envenenar" a arp cache, tanto da vítima quanto do g
 
 ## Fundamentação Teórica
 
-Para ver a explicação detalhada do ataque clique aqui
+Para ver a explicação detalhada do ataque clique [aqui](https://github.com/guilhermehiromoto/arp-cache-poisoning/blob/master/arp%20cache%20poisoning.pdf)
 
 ## Scapy
 
@@ -186,7 +186,7 @@ Utilizando o iptables
 sudo apt install iptables
 ```
 
-2. Para burlar o refresh da arp cache, o atacante pode enviar continuamente fake replys para sempre que um request for feito, já haja um fakereply pronto para responder. E isso pode ser feito com um script em python.
+2. Para burlar o refresh da arp cache, o atacante pode enviar continuamente fake replys para sempre que um request for feito, já haja um fakereply pronto para responder. E isso pode ser feito com um [script](https://github.com/guilhermehiromoto/arp-cache-poisoning/blob/master/arp.py) em python.
 
 ```python
 from scapy.all import *
