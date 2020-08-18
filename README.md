@@ -35,7 +35,7 @@ $ sudo apt install python3-scapy
 $ sudo nmap 192.168.1.0/24 -sC
 ```
 
-Supondo que eu tenha achado o host `192.168.1.101`
+Supondo que o atacante tenha achado o host `192.168.1.101`
 
 - Iniciando o Scapy
 ```
