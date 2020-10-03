@@ -18,14 +18,8 @@ Scapy é uma ferramenta que permite ao usuário enviar, sniffar, dissecar e forj
 
 Para assegurar estar usando a versão mais recente:
 
-```bash
-$ git clone https://github.com/secdev/scapy.git
-$ cd scapy
-$ sudo python3 setup.py install
 ```
-ou
-```bash
-$ sudo apt install python3-scapy
+$pip install -r requirements.txt
 ```
 
 ## O ataque
